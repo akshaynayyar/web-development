@@ -1,0 +1,153 @@
+body{
+	background: white;
+	border-color: white;
+	color: black;
+	font-size: 20px;
+	color: black;
+	font-style: Arial, Helvetica, Sans-serif;
+	line-height: 1.4em;
+	margin: 1px;
+	}
+
+.button{
+background: grey;
+color:white;
+border:none;
+padding: 10px 15px;
+text-decoration: none;
+}
+
+.button:hover{
+	background-color: green;
+	color: white;
+}
+
+.container{
+	width: 100%;
+	margin: auto;
+	overflow: hidden; 
+}
+
+.clr{
+	clear: both;
+}
+
+#main-header{
+	background-color: orange;
+	color: white;
+	line-height: 60px;
+	padding: 0.5px;
+}
+
+#navbar{
+	background-color: black;
+	color: white;
+	line-height: 1px;
+}
+
+#navbar ul{
+	list-style: none;
+	padding: 10px
+}
+
+#navbar li{
+	display: inline;
+	float: left;
+}
+
+#navbar a{ 
+	text-decoration:none;
+	color: white;
+	font-size: 20px;
+	padding-right: 40px;
+}
+
+#navbar a:hover{
+color: yellow;
+} 
+
+#showcase{
+	background-image: url('../images/showcase.jpg');
+	background-position: center,right;
+	text-align: center;
+	min-height: 300px;
+	margin-bottom: 30px;
+}
+
+#showcase h1{
+	font-size: 50px;
+	line-height: 1.6em;
+	padding: 30px
+}
+
+#main{
+	float: left;
+	width: 60%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float: right;
+	width: 40%;
+	box-sizing: border-box;
+	padding: 0.5px;
+	color:black;
+}
+
+.block{
+	float: left;
+	width: 33.3%;
+	height: 400px;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 0.5px dotted;
+}
+
+.block h2{
+	text-align: center;
+}
+
+#header2{
+	color: black;
+	line-height: 20px;
+}
+
+.my-form{
+padding: 20px;
+}
+
+.myform .form-group{
+	padding-bottom: 40px;
+}
+
+.my-form label{
+	display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding: 8px;
+	width:100%;
+}
+
+.box-1{
+	border: 2px black solid;
+	padding: 20px 10px;
+}
+
+.p-box{
+	background-image: url('../images/colors.jpg');
+	width: 3840px;
+	height: 720px;
+	border: 1px solid black;
+	background-position: 1300px;
+	position: relative; 
+}
+
+.fix-me{
+	position: fixed;
+	top: 500px;
+	background: #DC143C;
+	color: white;
+
+}
